@@ -9379,3 +9379,16 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.14-09.14.33:379][503]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/NewBlueprint195E596A45C2C9CF029A199286199F6F.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Sacha/NewBlueprint.uasset'
 [2022.09.14-09.14.33:394][503]AssetCheck: New page: Asset Save: NewBlueprint
 [2022.09.14-09.14.33:394][503]LogContentValidation: Display: Validating Blueprint /Game/Sacha/NewBlueprint.NewBlueprint
+[2022.09.14-09.20.10:192][ 95]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2022.09.14-09.20.10:192][ 95]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2022.09.14-09.20.17:072][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anais/NewBlueprint" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Anais/NewBlueprint.uasset" SILENT=true
+[2022.09.14-09.20.17:075][329]LogSavePackage: Moving output files for package: /Game/Anais/NewBlueprint
+[2022.09.14-09.20.17:075][329]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/NewBlueprint6381721948307AA3310B659ACDACFC76.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Anais/NewBlueprint.uasset'
+[2022.09.14-09.20.17:091][329]AssetCheck: New page: Asset Save: NewBlueprint
+[2022.09.14-09.20.17:091][329]LogContentValidation: Display: Validating Blueprint /Game/Anais/NewBlueprint.NewBlueprint
+[2022.09.14-09.20.20:253][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sacha/NewBlueprint" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Sacha/NewBlueprint.uasset" SILENT=true
+[2022.09.14-09.20.20:257][442]LogSavePackage: Moving output files for package: /Game/Sacha/NewBlueprint
+[2022.09.14-09.20.20:258][442]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/NewBlueprintA3A0461E4BD3CA0BBA5237B4B25EDD8D.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Sacha/NewBlueprint.uasset'
+[2022.09.14-09.20.20:274][442]AssetCheck: New page: Asset Save: NewBlueprint
+[2022.09.14-09.20.20:274][442]LogContentValidation: Display: Validating Blueprint /Game/Sacha/NewBlueprint.NewBlueprint
+[2022.09.14-09.20.26:728][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
