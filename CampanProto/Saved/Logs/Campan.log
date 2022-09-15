@@ -3315,3 +3315,1408 @@ Script Stack (0 frames):
 [2022.09.14-13.42.47:974][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
 [2022.09.14-13.42.48:199][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
 [2022.09.14-13.42.48:388][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.09.14-13.45.09:872][870]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speaker / Headphone (Realtek(R) Audio), InstanceID=1
+[2022.09.14-13.45.09:872][870]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=11584
+[2022.09.14-13.45.10:202][870]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b20b49ca-d6e4-43f3-8fdc-c704d35e52a4}, Name=Speaker / Headphone (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=269.75
+[2022.09.14-13.45.10:202][870]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.14-13.45.10:211][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.14-13.45.57:471][ 11]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.09.14-13.46.50:762][170]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (WH-1000XM4 Stereo), InstanceID=1
+[2022.09.14-13.46.50:762][170]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=11584
+[2022.09.14-13.46.51:424][171]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{c993ba7a-df21-4890-b54d-2f797879f8f5}, Name=Headphones (WH-1000XM4 Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=503.88
+[2022.09.14-13.46.51:424][171]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.14-13.46.51:431][172]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.14-13.50.48:134][930]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-13.50.48:135][930]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteractFA93BA924E980A105F8472A2F62A62AA.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-13.50.48:167][930]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-13.50.48:167][930]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-13.51.14:834][293]LogContentBrowser: Deferred new asset file creation: NewSoundCue
+[2022.09.14-13.51.14:849][293]LogContentBrowser: Creating deferred item: NewSoundCue
+[2022.09.14-13.51.14:865][294]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundCue).
+[2022.09.14-13.51.18:964][369]LogContentBrowser: Attempting asset rename: NewSoundCue -> Mixer
+[2022.09.14-13.51.18:968][369]LogContentBrowser: End creating deferred item NewSoundCue
+[2022.09.14-13.51.20:560][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/Mixer" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset" SILENT=true
+[2022.09.14-13.51.20:561][394]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Mixer
+[2022.09.14-13.51.20:561][394]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MixerEBCEDC564E97EEE2E9227A8850F1D6F3.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset'
+[2022.09.14-13.51.20:586][394]AssetCheck: New page: Asset Save: Mixer
+[2022.09.14-13.51.20:586][394]LogContentValidation: Display: Validating SoundCue /Game/Assets/Sound/Mixer.Mixer
+[2022.09.14-13.51.28:855][530]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Assets/Sound/Mixer.Mixer
+[2022.09.14-13.52.03:031][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/Mixer" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset" SILENT=true
+[2022.09.14-13.52.03:034][102]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Mixer
+[2022.09.14-13.52.03:036][102]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Mixer97493F984FCCD519E8804A973AE4D2D6.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset'
+[2022.09.14-13.52.03:067][102]AssetCheck: New page: Asset Save: Mixer
+[2022.09.14-13.52.03:067][102]LogContentValidation: Display: Validating SoundCue /Game/Assets/Sound/Mixer.Mixer
+[2022.09.14-13.52.17:184][698]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-C4ORKTI
+[2022.09.14-13.53.04:109][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.09.14-13.55.53:127][639]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01
+[2022.09.14-13.55.53:127][639]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01
+[2022.09.14-13.55.53:137][639]LogActorFactory: Actor Factory spawned SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01 as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_0
+[2022.09.14-13.55.53:138][639]LogActorFactory: Actor Factory spawned SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01 as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_0
+[2022.09.14-13.55.53:139][639]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/StarterContent/Audio/Explosion01.Explosion01
+[2022.09.14-13.55.53:139][639]LogActorFactory: Actor Factory attempting to spawn SoundWave /Game/StarterContent/Audio/Explosion01.Explosion01
+[2022.09.14-13.55.53:140][639]LogActorFactory: Actor Factory spawned SoundWave /Game/StarterContent/Audio/Explosion01.Explosion01 as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_1
+[2022.09.14-13.55.53:140][639]LogActorFactory: Actor Factory spawned SoundWave /Game/StarterContent/Audio/Explosion01.Explosion01 as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_1
+[2022.09.14-13.56.01:944][ 96]LogEditorTransaction: Undo Sound Cue Editor: New Sound Node
+[2022.09.14-13.56.12:092][639]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-13.56.12:093][639]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract1CD116E84EE340E91F9487AC38353420.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-13.56.12:119][639]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-13.56.12:119][639]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-13.56.12:744][675]BlueprintLog: New page: Compile CollisionBoxInteract
+[2022.09.14-13.56.12:874][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.09.14-13.56.15:610][814]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-C4ORKTI
+[2022.09.14-13.56.16:284][849]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.14-13.56.16:284][849]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.14-13.56.16:284][849]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-13.56.16:284][849]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.14-13.56.16:284][849]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.14-13.56.16:284][849]LogWorldPartition: Display: GetPartitionedActors took 128 us
+[2022.09.14-13.56.16:285][849]LogWorldPartition: Display: GenerateStreaming took 632 us
+[2022.09.14-13.56.16:285][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.14-13.56.16:285][849]PIE: New page: PIE session: FirstPersonMap (14 Sep 2022, 17:56:16)
+[2022.09.14-13.56.16:285][849]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-13.56.16:294][849]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.14-13.56.16:294][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008301s)
+[2022.09.14-13.56.16:294][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008381s)
+[2022.09.14-13.56.16:294][849]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-13.56.16:294][849]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.14-13.56.16:294][849]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.14-13.56.16:294][849]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.14-13.56.16:297][849]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.09.14-13.56.16:298][849]LogPlayLevel: PIE: World Init took: (0.003682s)
+[2022.09.14-13.56.16:377][849]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2022.09.14-13.56.16:379][849]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2022.09.14-13.56.16:379][849]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.14-13.56.16:379][849]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.14-13.56.16:379][849]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.14-13.56.16:379][849]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.14-13.56.16:379][849]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.14-13.56.16:379][849]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.14-13.56.16:379][849]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.14-13.56.16:379][849]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.14-13.56.16:380][849]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.14-13.56.16:380][849]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.14-13.56.16:380][849]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.14-13.56.16:382][849]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.14-13.56.16:410][849]LogAudioMixer: Display: Using Audio Hardware Device Headphones (WH-1000XM4 Stereo)
+[2022.09.14-13.56.16:410][849]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.14-13.56.16:410][849]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.14-13.56.16:410][849]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.14-13.56.16:412][849]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2022.09.14-13.56.16:412][849]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2022.09.14-13.56.16:414][849]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2022.09.14-13.56.16:414][849]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2022.09.14-13.56.16:414][849]LogInit: FAudioDevice initialized.
+[2022.09.14-13.56.16:414][849]LogAudio: Display: Audio Device (ID: 29) registered with world 'FirstPersonMap'.
+[2022.09.14-13.56.16:601][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-13.56.16:601][849]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.14-13.56.16:605][849]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.14-15.56.16
+[2022.09.14-13.56.16:606][849]LogWorld: Bringing up level for play took: 0.004648
+[2022.09.14-13.56.16:608][849]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2022.09.14-13.56.16:610][849]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.14-13.56.16:610][849]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-13.56.16:613][849]PIE: Server logged in
+[2022.09.14-13.56.16:615][849]PIE: Play in editor total start time 0.335 seconds.
+[2022.09.14-13.56.16:630][849]LogViewport: Scene viewport resized to 3826x1980, mode Windowed.
+[2022.09.14-13.56.16:849][850]Cmd: r.ScreenPercentage 18.181818
+[2022.09.14-13.56.16:850][850]LogEngine: Display: r.ScreenPercentage=18.181818 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2022.09.14-13.56.16:850][850]r.ScreenPercentage = "18.1818"
+[2022.09.14-13.56.16:850][850]Cmd: r.upscale.quality 0
+[2022.09.14-13.56.16:850][850]r.Upscale.Quality = "0"
+[2022.09.14-13.56.52:129][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-13.56.52:129][560]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-13.56.52:130][560]LogSlate: Window 'Campan Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.14-13.56.52:158][560]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-13.56.52:159][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-13.56.52:174][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.14-13.56.52:188][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-13.56.52:281][560]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.14-13.56.52:282][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.09.14-13.56.52:284][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.09.14-13.56.52:296][560]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2022.09.14-13.56.52:350][561]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.09.14-13.56.57:326][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/Mixer" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset" SILENT=true
+[2022.09.14-13.56.57:329][836]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Mixer
+[2022.09.14-13.56.57:329][836]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Mixer748C1BAB4EA7F13C0E59BB807F1DDF3F.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset'
+[2022.09.14-13.56.57:351][836]AssetCheck: New page: Asset Save: Mixer
+[2022.09.14-13.56.57:351][836]LogContentValidation: Display: Validating SoundCue /Game/Assets/Sound/Mixer.Mixer
+[2022.09.14-13.57.33:229][947]LogEditorTransaction: Undo Add Sound Cue Input
+[2022.09.14-13.58.31:194][970]LogEditorTransaction: Undo Move Node
+[2022.09.14-13.58.32:254][  1]LogEditorTransaction: Undo Move Node
+[2022.09.14-13.58.33:596][ 65]LogEditorTransaction: Undo Add Node
+[2022.09.14-13.58.39:669][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/Mixer" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset" SILENT=true
+[2022.09.14-13.58.39:671][387]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Mixer
+[2022.09.14-13.58.39:672][387]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MixerEC23038E4CB11D67CEFD5EA7A43381B1.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Mixer.uasset'
+[2022.09.14-13.58.39:695][387]AssetCheck: New page: Asset Save: Mixer
+[2022.09.14-13.58.39:695][387]LogContentValidation: Display: Validating SoundCue /Game/Assets/Sound/Mixer.Mixer
+[2022.09.14-13.59.04:456][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.09.14-13.59.04:460][487]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9_Auto6
+[2022.09.14-13.59.04:460][487]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/07M8R0YLE65TSKLJQKDCQ9_Auto64B7AB3E24DA74E67CFCD5784F59BF124.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9_Auto6.uasset'
+[2022.09.14-13.59.04:462][487]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.081
+[2022.09.14-13.59.04:462][487]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.081
+[2022.09.14-13.59.04:462][487]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CollisionEvent/CollisionBoxInteract] ([2] browsable assets)...
+[2022.09.14-13.59.04:577][487]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract]
+[2022.09.14-13.59.04:579][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/CollisionEvent/CollisionBoxInteract]
+[2022.09.14-13.59.04:589][487]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CollisionEvent/CollisionBoxInteract_Auto6
+[2022.09.14-13.59.04:590][487]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract_Auto6B766028847387DC826819FB4F1CB6AD6.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Autosaves/Game/CollisionEvent/CollisionBoxInteract_Auto6.uasset'
+[2022.09.14-13.59.04:591][487]LogFileHelpers: Auto-saving content packages took 0.130
+[2022.09.14-13.59.32:003][854]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-13.59.32:004][854]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteractD1D9C30E44440DC870D05BB97B3203D0.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-13.59.32:025][854]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-13.59.32:025][854]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-13.59.33:831][954]BlueprintLog: New page: Compile CollisionBoxInteract
+[2022.09.14-13.59.33:952][954]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2022.09.14-13.59.41:085][164]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Assets/Sound/Mixer.Mixer
+[2022.09.14-13.59.41:085][164]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Assets/Sound/Mixer.Mixer
+[2022.09.14-13.59.41:087][164]LogActorFactory: Actor Factory spawned SoundCue /Game/Assets/Sound/Mixer.Mixer as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_2
+[2022.09.14-13.59.41:087][164]LogActorFactory: Actor Factory spawned SoundCue /Game/Assets/Sound/Mixer.Mixer as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_2
+[2022.09.14-14.00.19:044][190]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.00.19:044][190]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract501234D44DAA7E12943004A982F7DA01.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.00.19:065][190]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.00.19:065][190]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.01.22:487][448]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.01.22:488][448]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteractCB7D51264D586CC1C61FB39C1F808D77.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.01.22:510][448]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.01.22:510][448]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.01.24:499][559]BlueprintLog: New page: Compile CollisionBoxInteract
+[2022.09.14-14.01.24:628][559]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.09.14-14.06.56:366][663]LogContentBrowser: Deferred new asset file creation: NewSoundMix
+[2022.09.14-14.06.56:377][663]LogContentBrowser: Creating deferred item: NewSoundMix
+[2022.09.14-14.06.56:394][664]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundMix).
+[2022.09.14-14.06.57:717][686]LogContentBrowser: Attempting asset rename: NewSoundMix -> NewSoundMix
+[2022.09.14-14.06.57:718][686]LogContentBrowser: End creating deferred item NewSoundMix
+[2022.09.14-14.06.59:244][724]LogAssetEditorSubsystem: Opening Asset editor for SoundMix /Game/Assets/Sound/NewSoundMix.NewSoundMix
+[2022.09.14-14.09.04:986][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.09.14-14.09.04:991][600]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9_Auto7
+[2022.09.14-14.09.04:991][600]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/07M8R0YLE65TSKLJQKDCQ9_Auto73A7817C44FACC68E19197C9509EA893E.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9_Auto7.uasset'
+[2022.09.14-14.09.04:993][600]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.093
+[2022.09.14-14.09.04:993][600]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.093
+[2022.09.14-14.14.16:268][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/NewSoundMix" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/NewSoundMix.uasset" SILENT=true
+[2022.09.14-14.14.16:271][607]LogSavePackage: Moving output files for package: /Game/Assets/Sound/NewSoundMix
+[2022.09.14-14.14.16:271][607]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/NewSoundMix04E52C6740BC9DF9CCC6468E4A8DEF94.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/NewSoundMix.uasset'
+[2022.09.14-14.14.16:302][607]AssetCheck: New page: Asset Save: NewSoundMix
+[2022.09.14-14.14.16:302][607]LogContentValidation: Display: Validating SoundMix /Game/Assets/Sound/NewSoundMix.NewSoundMix
+[2022.09.14-14.14.40:156][489]LogContentBrowser: Deferred new asset file creation: NewSoundClass
+[2022.09.14-14.14.40:164][489]LogContentBrowser: Creating deferred item: NewSoundClass
+[2022.09.14-14.14.40:177][490]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundClass).
+[2022.09.14-14.14.48:279][743]LogContentBrowser: Attempting asset rename: NewSoundClass -> MyMusic
+[2022.09.14-14.14.48:280][743]LogContentBrowser: End creating deferred item NewSoundClass
+[2022.09.14-14.14.49:422][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyMusic" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMusic.uasset" SILENT=true
+[2022.09.14-14.14.49:423][774]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyMusic
+[2022.09.14-14.14.49:423][774]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyMusic175BE6494E41F7742A7F59AB229C2E77.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMusic.uasset'
+[2022.09.14-14.14.49:445][774]AssetCheck: New page: Asset Save: MyMusic
+[2022.09.14-14.14.49:445][774]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyMusic.MyMusic
+[2022.09.14-14.14.50:522][805]LogAssetEditorSubsystem: Opening Asset editor for SoundClass /Game/Assets/Sound/MyMusic.MyMusic
+[2022.09.14-14.14.57:574][162]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.14.57:574][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.14.57:589][162]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.14.57:589][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.14.59:731][252]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.14.59:731][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.14.59:745][252]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.14.59:745][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.15.01:466][274]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.15.01:466][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.15.16:390][607]LogContentBrowser: Deferred new asset file creation: NewSoundClass
+[2022.09.14-14.15.16:405][607]LogContentBrowser: Creating deferred item: NewSoundClass
+[2022.09.14-14.15.16:419][608]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundClass).
+[2022.09.14-14.15.19:719][720]LogContentBrowser: Attempting asset rename: NewSoundClass -> MySFX
+[2022.09.14-14.15.19:720][720]LogContentBrowser: End creating deferred item NewSoundClass
+[2022.09.14-14.15.20:973][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MySFX" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MySFX.uasset" SILENT=true
+[2022.09.14-14.15.20:974][758]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MySFX
+[2022.09.14-14.15.20:974][758]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MySFX54FA7D004BA849CFEC168D97F47053DD.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MySFX.uasset'
+[2022.09.14-14.15.20:998][758]AssetCheck: New page: Asset Save: MySFX
+[2022.09.14-14.15.20:998][758]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MySFX.MySFX
+[2022.09.14-14.15.28:611][940]LogContentBrowser: Deferred new asset file creation: NewSoundClass
+[2022.09.14-14.15.28:623][940]LogContentBrowser: Creating deferred item: NewSoundClass
+[2022.09.14-14.15.28:635][941]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundClass).
+[2022.09.14-14.15.31:338][ 23]LogContentBrowser: Attempting asset rename: NewSoundClass -> MyDialogue
+[2022.09.14-14.15.31:338][ 23]LogContentBrowser: End creating deferred item NewSoundClass
+[2022.09.14-14.15.32:672][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyDialogue" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyDialogue.uasset" SILENT=true
+[2022.09.14-14.15.32:673][ 61]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyDialogue
+[2022.09.14-14.15.32:673][ 61]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyDialogueAC5C80314C5A78F92D52BBA267024ED5.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyDialogue.uasset'
+[2022.09.14-14.15.32:698][ 61]AssetCheck: New page: Asset Save: MyDialogue
+[2022.09.14-14.15.32:698][ 61]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyDialogue.MyDialogue
+[2022.09.14-14.15.38:559][194]LogContentBrowser: Deferred new asset file creation: NewSoundClass
+[2022.09.14-14.15.38:578][194]LogContentBrowser: Creating deferred item: NewSoundClass
+[2022.09.14-14.15.38:591][195]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundClass).
+[2022.09.14-14.15.42:418][318]LogContentBrowser: Attempting asset rename: NewSoundClass -> MyAtmosphere
+[2022.09.14-14.15.42:419][318]LogContentBrowser: End creating deferred item NewSoundClass
+[2022.09.14-14.15.43:256][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyAtmosphere" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyAtmosphere.uasset" SILENT=true
+[2022.09.14-14.15.43:257][341]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyAtmosphere
+[2022.09.14-14.15.43:257][341]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyAtmosphere342C9C0D4E112A08D519E39EA5E581E1.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyAtmosphere.uasset'
+[2022.09.14-14.15.43:279][341]AssetCheck: New page: Asset Save: MyAtmosphere
+[2022.09.14-14.15.43:279][341]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyAtmosphere.MyAtmosphere
+[2022.09.14-14.15.48:683][491]LogContentBrowser: Deferred new asset file creation: NewSoundClass
+[2022.09.14-14.15.48:698][491]LogContentBrowser: Creating deferred item: NewSoundClass
+[2022.09.14-14.15.48:710][492]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundClass).
+[2022.09.14-14.15.51:036][571]LogContentBrowser: Attempting asset rename: NewSoundClass -> MyMaster
+[2022.09.14-14.15.51:037][571]LogContentBrowser: End creating deferred item NewSoundClass
+[2022.09.14-14.15.52:070][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyMaster" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMaster.uasset" SILENT=true
+[2022.09.14-14.15.52:071][600]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyMaster
+[2022.09.14-14.15.52:071][600]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyMaster5F838FED43F6C7911084C7A850088C5C.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMaster.uasset'
+[2022.09.14-14.15.52:094][600]AssetCheck: New page: Asset Save: MyMaster
+[2022.09.14-14.15.52:094][600]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyMaster.MyMaster
+[2022.09.14-14.15.52:762][623]LogAssetEditorSubsystem: Opening Asset editor for SoundClass /Game/Assets/Sound/MyMaster.MyMaster
+[2022.09.14-14.16.38:180][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyMaster" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMaster.uasset" SILENT=true
+[2022.09.14-14.16.38:181][ 88]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyMaster
+[2022.09.14-14.16.38:182][ 88]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyMasterBF7D7DE54C4C59B71EA3D4B922BFB53D.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMaster.uasset'
+[2022.09.14-14.16.38:209][ 88]AssetCheck: New page: Asset Save: MyMaster
+[2022.09.14-14.16.38:209][ 88]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyMaster.MyMaster
+[2022.09.14-14.16.47:311][628]Cmd: TRANSACTION UNDO
+[2022.09.14-14.16.47:311][628]LogEditorTransaction: Undo Insert Child
+[2022.09.14-14.17.06:870][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/NewSoundMix" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/NewSoundMix.uasset" SILENT=true
+[2022.09.14-14.17.06:871][750]LogSavePackage: Moving output files for package: /Game/Assets/Sound/NewSoundMix
+[2022.09.14-14.17.06:872][750]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/NewSoundMix0EAC48884604EE6101F26D8DCDD922F7.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/NewSoundMix.uasset'
+[2022.09.14-14.17.06:894][750]AssetCheck: New page: Asset Save: NewSoundMix
+[2022.09.14-14.17.06:894][750]LogContentValidation: Display: Validating SoundMix /Game/Assets/Sound/NewSoundMix.NewSoundMix
+[2022.09.14-14.17.35:917][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyAtmosphere" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyAtmosphere.uasset" SILENT=true
+[2022.09.14-14.17.35:918][382]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyAtmosphere
+[2022.09.14-14.17.35:919][382]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyAtmosphere33A202D2455FD1283F075B9B7513B5C1.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyAtmosphere.uasset'
+[2022.09.14-14.17.35:920][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyDialogue" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyDialogue.uasset" SILENT=true
+[2022.09.14-14.17.35:921][382]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyDialogue
+[2022.09.14-14.17.35:922][382]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyDialogueB070B7F642965A116EABCBBD621492F0.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyDialogue.uasset'
+[2022.09.14-14.17.35:923][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MySFX" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MySFX.uasset" SILENT=true
+[2022.09.14-14.17.35:924][382]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MySFX
+[2022.09.14-14.17.35:925][382]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MySFX7271758145C73D55F314A8923BD32FD8.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MySFX.uasset'
+[2022.09.14-14.17.35:927][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyMusic" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMusic.uasset" SILENT=true
+[2022.09.14-14.17.35:928][382]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyMusic
+[2022.09.14-14.17.35:929][382]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyMusic53035730442447EC3CD6B1BE96E018E3.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMusic.uasset'
+[2022.09.14-14.17.35:949][382]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-14.17.35:949][382]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyAtmosphere.MyAtmosphere
+[2022.09.14-14.17.35:949][382]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyDialogue.MyDialogue
+[2022.09.14-14.17.35:949][382]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MySFX.MySFX
+[2022.09.14-14.17.35:949][382]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyMusic.MyMusic
+[2022.09.14-14.17.56:642][469]LogEditorTransaction: Undo Add Node
+[2022.09.14-14.19.09:441][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/NewSoundMix" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/NewSoundMix.uasset" SILENT=true
+[2022.09.14-14.19.09:443][551]LogSavePackage: Moving output files for package: /Game/Assets/Sound/NewSoundMix
+[2022.09.14-14.19.09:444][551]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/NewSoundMix892B5C5C4D068985C220139C78CE8474.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/NewSoundMix.uasset'
+[2022.09.14-14.19.09:466][551]AssetCheck: New page: Asset Save: NewSoundMix
+[2022.09.14-14.19.09:466][551]LogContentValidation: Display: Validating SoundMix /Game/Assets/Sound/NewSoundMix.NewSoundMix
+[2022.09.14-14.19.12:289][703]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.19.12:290][703]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract8921D2F54F6BAC07BB993C83CF1FD5A3.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.19.12:310][703]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.19.12:310][703]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.20.14:939][427]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9
+[2022.09.14-14.20.14:940][427]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/07M8R0YLE65TSKLJQKDCQ91D1BBF394FCF87E04465D497A6D4E8D7.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9.uasset'
+[2022.09.14-14.20.14:962][427]AssetCheck: New page: Asset Save: CollisionBoxInteract_C_UAID_04D3B0B5265F633601_2133492607
+[2022.09.14-14.20.14:962][427]LogContentValidation: Display: Validating CollisionBoxInteract_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.CollisionBoxInteract_C_UAID_04D3B0B5265F633601_2133492607
+[2022.09.14-14.20.16:869][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/Explosion01" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Explosion01.uasset" SILENT=true
+[2022.09.14-14.20.16:871][474]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Explosion01
+[2022.09.14-14.20.16:871][474]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Explosion01B5A8180749F73AA5DF5EAE9B6DDDA986.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Explosion01.uasset'
+[2022.09.14-14.20.16:891][474]AssetCheck: New page: Asset Save: Explosion01
+[2022.09.14-14.20.16:891][474]LogContentValidation: Display: Validating SoundWave /Game/Assets/Sound/Explosion01.Explosion01
+[2022.09.14-14.20.32:745][205]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.20.32:746][205]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteractC57AF04241AF0DC059921C9B1B58202B.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.20.32:767][205]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.20.32:767][205]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.20.32:875][212]BlueprintLog: New page: Compile CollisionBoxInteract
+[2022.09.14-14.20.33:046][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.14-14.20.48:201][ 27]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.20.48:202][ 27]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract4F57D7F84DE6C242EC81B79161F55C15.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.20.48:225][ 27]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.20.48:225][ 27]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.20.56:640][238]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.14-14.20.56:680][238]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.14-14.20.56:693][239]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.14-14.20.59:651][322]LogContentBrowser: Attempting asset rename: NewFolder -> SFX
+[2022.09.14-14.20.59:652][322]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.14-14.21.04:216][421]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.21.04:216][421]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract2DCB0DEC4553E63AD0F3889949686523.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.21.04:219][421]LogSavePackage: Moving output files for package: /Game/Assets/Sound/SFX/Explosion01
+[2022.09.14-14.21.04:219][421]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Explosion01B7CD83384150B583D69F0DAE7D16571E.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/SFX/Explosion01.uasset'
+[2022.09.14-14.21.04:371][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.09.14-14.21.04:424][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.09.14-14.21.04:468][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.09.14-14.21.04:505][421]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-14.21.04:505][421]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.21.04:505][421]LogContentValidation: Display: Validating SoundWave /Game/Assets/Sound/SFX/Explosion01.Explosion01
+[2022.09.14-14.21.15:854][843]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.14-14.21.15:895][843]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.14-14.21.15:909][844]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.14-14.21.17:955][902]LogContentBrowser: Attempting asset rename: NewFolder -> Atmosphere
+[2022.09.14-14.21.17:955][902]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.14-14.21.22:564][ 16]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.21.22:564][ 16]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/La_réaction_dAntoine_Daniel_au_T221B4AD34588813ABED1768EE542540C.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.uasset'
+[2022.09.14-14.21.22:644][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.09.14-14.21.22:694][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.09.14-14.21.22:739][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.09.14-14.21.22:770][ 16]AssetCheck: New page: Asset Save: La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.21.22:770][ 16]LogContentValidation: Display: Validating SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.21.31:274][230]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Assets/Sound/SFX/Explosion01.Explosion01
+[2022.09.14-14.21.39:359][666]LogSavePackage: Moving output files for package: /Game/Assets/Sound/SFX/Explosion01
+[2022.09.14-14.21.39:360][666]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Explosion012423C6204111FF4A3E3620B08EFC492E.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/SFX/Explosion01.uasset'
+[2022.09.14-14.21.39:381][666]AssetCheck: New page: Asset Save: Explosion01
+[2022.09.14-14.21.39:381][666]LogContentValidation: Display: Validating SoundWave /Game/Assets/Sound/SFX/Explosion01.Explosion01
+[2022.09.14-14.22.22:660][781]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.22.26:858][988]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.22.26:859][988]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/La_réaction_dAntoine_Daniel_au_TC07A98BA4C1E7F12556A0393B6766AE0.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.uasset'
+[2022.09.14-14.22.26:878][988]AssetCheck: New page: Asset Save: La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.22.26:878][988]LogContentValidation: Display: Validating SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.24.27:967][147]LogEditorTransaction: Undo Add Node
+[2022.09.14-14.25.07:546][242]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.25.07:547][242]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract6F848F204FFC2567525C49B193579785.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.25.07:568][242]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.25.07:568][242]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.25.08:665][302]BlueprintLog: New page: Compile CollisionBoxInteract
+[2022.09.14-14.25.08:753][302]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.09.14-14.25.09:885][360]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.14-14.25.09:899][360]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.14-14.25.09:900][360]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.14-14.25.09:900][360]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.25.09:900][360]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.14-14.25.09:900][360]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.14-14.25.09:900][360]LogWorldPartition: Display: GetPartitionedActors took 86 us
+[2022.09.14-14.25.09:900][360]LogWorldPartition: Display: GenerateStreaming took 580 us
+[2022.09.14-14.25.09:900][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.14-14.25.09:900][360]PIE: New page: PIE session: FirstPersonMap (14 Sep 2022, 18:25:09)
+[2022.09.14-14.25.09:901][360]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.25.09:909][360]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.14-14.25.09:909][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008625s)
+[2022.09.14-14.25.09:909][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008705s)
+[2022.09.14-14.25.09:909][360]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.25.09:910][360]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.14-14.25.09:911][360]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.14-14.25.09:911][360]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.14-14.25.09:913][360]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.09.14-14.25.09:913][360]LogPlayLevel: PIE: World Init took: (0.003510s)
+[2022.09.14-14.25.09:961][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.09.14-14.25.09:964][360]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2022.09.14-14.25.09:964][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.14-14.25.09:964][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.14-14.25.09:964][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.14-14.25.09:964][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.14-14.25.09:964][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.14-14.25.09:964][360]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.14-14.25.09:964][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.14-14.25.09:964][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.14-14.25.09:965][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.14-14.25.09:965][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.14-14.25.09:965][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.14-14.25.09:967][360]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.14-14.25.09:994][360]LogAudioMixer: Display: Using Audio Hardware Device Headphones (WH-1000XM4 Stereo)
+[2022.09.14-14.25.09:994][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.14-14.25.09:994][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.14-14.25.09:994][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.14-14.25.09:996][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2022.09.14-14.25.09:996][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2022.09.14-14.25.09:998][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2022.09.14-14.25.09:998][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2022.09.14-14.25.09:998][360]LogInit: FAudioDevice initialized.
+[2022.09.14-14.25.09:998][360]LogAudio: Display: Audio Device (ID: 30) registered with world 'FirstPersonMap'.
+[2022.09.14-14.25.10:160][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.25.10:161][360]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.14-14.25.10:165][360]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.14-16.25.10
+[2022.09.14-14.25.10:166][360]LogWorld: Bringing up level for play took: 0.004722
+[2022.09.14-14.25.10:168][360]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2022.09.14-14.25.10:170][360]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.14-14.25.10:170][360]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.25.10:174][360]PIE: Server logged in
+[2022.09.14-14.25.10:176][360]PIE: Play in editor total start time 0.279 seconds.
+[2022.09.14-14.25.10:190][360]LogViewport: Scene viewport resized to 3826x1980, mode Windowed.
+[2022.09.14-14.25.10:427][361]Cmd: r.ScreenPercentage 18.181818
+[2022.09.14-14.25.10:427][361]LogEngine: Display: r.ScreenPercentage=18.181818 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2022.09.14-14.25.10:427][361]r.ScreenPercentage = "18.1818"
+[2022.09.14-14.25.10:427][361]Cmd: r.upscale.quality 0
+[2022.09.14-14.25.10:427][361]r.Upscale.Quality = "0"
+[2022.09.14-14.25.15:178][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.25.15:178][446]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.25.15:179][446]LogSlate: Window 'Campan Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.14-14.25.15:219][446]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.25.15:220][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.25.15:232][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.14-14.25.15:239][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.25.15:294][446]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.14-14.25.15:294][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.09.14-14.25.15:296][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.09.14-14.25.15:307][446]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2022.09.14-14.25.15:335][447]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.09.14-14.25.20:330][713]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.25.20:331][713]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract53F922A246D464BF0BF928BBC998297B.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.25.20:349][713]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.25.20:349][713]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.25.23:296][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.09.14-14.25.23:424][801]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9
+[2022.09.14-14.25.23:425][801]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/07M8R0YLE65TSKLJQKDCQ91AC36DA447EF337D09E6C1AB1A45A9AB.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9.uasset'
+[2022.09.14-14.25.23:447][801]AssetCheck: New page: Asset Save: CollisionBoxInteract_C_UAID_04D3B0B5265F633601_2133492607
+[2022.09.14-14.25.23:447][801]LogContentValidation: Display: Validating CollisionBoxInteract_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.CollisionBoxInteract_C_UAID_04D3B0B5265F633601_2133492607
+[2022.09.14-14.25.45:363][892]LogAudio: Display: Chunk size for SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron: 262144
+[2022.09.14-14.25.46:405][944]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.25.46:406][944]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/La_réaction_dAntoine_Daniel_au_T5448093949867078CF41BD83424825BD.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.uasset'
+[2022.09.14-14.25.46:429][944]AssetCheck: New page: Asset Save: La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.25.46:429][944]LogContentValidation: Display: Validating SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.25.49:750][103]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.14-14.25.49:767][103]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.14-14.25.49:767][103]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.14-14.25.49:767][103]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.25.49:767][103]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.14-14.25.49:767][103]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.14-14.25.49:767][103]LogWorldPartition: Display: GetPartitionedActors took 132 us
+[2022.09.14-14.25.49:767][103]LogWorldPartition: Display: GenerateStreaming took 567 us
+[2022.09.14-14.25.49:768][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.14-14.25.49:768][103]PIE: New page: PIE session: FirstPersonMap (14 Sep 2022, 18:25:49)
+[2022.09.14-14.25.49:768][103]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.25.49:776][103]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.14-14.25.49:777][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008620s)
+[2022.09.14-14.25.49:777][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008724s)
+[2022.09.14-14.25.49:777][103]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.25.49:778][103]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.14-14.25.49:778][103]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.14-14.25.49:778][103]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.14-14.25.49:781][103]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.09.14-14.25.49:781][103]LogPlayLevel: PIE: World Init took: (0.004656s)
+[2022.09.14-14.25.49:837][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.09.14-14.25.49:839][103]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2022.09.14-14.25.49:839][103]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.14-14.25.49:839][103]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.14-14.25.49:840][103]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.14-14.25.49:840][103]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.14-14.25.49:840][103]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.14-14.25.49:840][103]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.14-14.25.49:840][103]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.14-14.25.49:840][103]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.14-14.25.49:840][103]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.14-14.25.49:840][103]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.14-14.25.49:840][103]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.14-14.25.49:843][103]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.14-14.25.49:873][103]LogAudioMixer: Display: Using Audio Hardware Device Headphones (WH-1000XM4 Stereo)
+[2022.09.14-14.25.49:874][103]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.14-14.25.49:874][103]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.14-14.25.49:874][103]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.14-14.25.49:875][103]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2022.09.14-14.25.49:875][103]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2022.09.14-14.25.49:877][103]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2022.09.14-14.25.49:877][103]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2022.09.14-14.25.49:877][103]LogInit: FAudioDevice initialized.
+[2022.09.14-14.25.49:877][103]LogAudio: Display: Audio Device (ID: 31) registered with world 'FirstPersonMap'.
+[2022.09.14-14.25.49:900][103]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.14-14.25.49:902][103]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.14-16.25.49
+[2022.09.14-14.25.49:903][103]LogWorld: Bringing up level for play took: 0.002730
+[2022.09.14-14.25.49:905][103]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2022.09.14-14.25.49:906][103]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.14-14.25.49:906][103]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.25.49:907][103]Cmd: r.ScreenPercentage 30.534351
+[2022.09.14-14.25.49:907][103]LogEngine: Display: r.ScreenPercentage=30.534351 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2022.09.14-14.25.49:907][103]r.ScreenPercentage = "30.5344"
+[2022.09.14-14.25.49:907][103]Cmd: r.upscale.quality 0
+[2022.09.14-14.25.49:907][103]r.Upscale.Quality = "0"
+[2022.09.14-14.25.49:907][103]PIE: Server logged in
+[2022.09.14-14.25.49:908][103]PIE: Play in editor total start time 0.145 seconds.
+[2022.09.14-14.25.52:668][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.25.52:668][174]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.25.52:668][174]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.25.52:669][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.25.52:734][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.14-14.25.52:741][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.25.52:782][174]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.14-14.25.52:782][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.09.14-14.25.52:784][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.09.14-14.25.52:787][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.25.52:794][174]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2022.09.14-14.25.52:840][175]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.09.14-14.25.56:957][332]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave La_réaction_dAntoine_Daniel_au_Tweet_de_Macron...
+[2022.09.14-14.25.56:959][332]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron will be modified from 40 to 40.
+[2022.09.14-14.25.57:356][332]LogAudio: Display: Chunk size for SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron: 262144
+[2022.09.14-14.26.07:519][918]LogSavePackage: Moving output files for package: /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.26.07:519][918]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/La_réaction_dAntoine_Daniel_au_T83F99DE64370377D58FBF78540C2D127.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.uasset'
+[2022.09.14-14.26.07:537][918]AssetCheck: New page: Asset Save: La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.26.07:537][918]LogContentValidation: Display: Validating SoundWave /Game/Assets/Sound/Atmosphere/La_réaction_dAntoine_Daniel_au_Tweet_de_Macron.La_réaction_dAntoine_Daniel_au_Tweet_de_Macron
+[2022.09.14-14.26.34:417][429]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.26.34:418][429]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteract8B13557C4DEFAC2E3FDC5789FE08F756.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.26.34:440][429]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.26.34:440][429]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.26.35:612][491]BlueprintLog: New page: Compile CollisionBoxInteract
+[2022.09.14-14.26.35:700][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.09.14-14.26.36:345][510]LogSavePackage: Moving output files for package: /Game/CollisionEvent/CollisionBoxInteract
+[2022.09.14-14.26.36:346][510]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/CollisionBoxInteractAC603C8745928542825308BCF0574BCD.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/CollisionEvent/CollisionBoxInteract.uasset'
+[2022.09.14-14.26.36:365][510]AssetCheck: New page: Asset Save: CollisionBoxInteract
+[2022.09.14-14.26.36:365][510]LogContentValidation: Display: Validating Blueprint /Game/CollisionEvent/CollisionBoxInteract.CollisionBoxInteract
+[2022.09.14-14.26.37:392][562]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.14-14.26.37:404][562]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.14-14.26.37:404][562]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.14-14.26.37:404][562]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.26.37:404][562]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.14-14.26.37:404][562]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.14-14.26.37:404][562]LogWorldPartition: Display: GetPartitionedActors took 132 us
+[2022.09.14-14.26.37:405][562]LogWorldPartition: Display: GenerateStreaming took 750 us
+[2022.09.14-14.26.37:405][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.14-14.26.37:405][562]PIE: New page: PIE session: FirstPersonMap (14 Sep 2022, 18:26:37)
+[2022.09.14-14.26.37:406][562]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.26.37:413][562]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.14-14.26.37:414][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007540s)
+[2022.09.14-14.26.37:414][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007637s)
+[2022.09.14-14.26.37:414][562]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.26.37:415][562]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.14-14.26.37:416][562]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.14-14.26.37:416][562]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.14-14.26.37:419][562]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.09.14-14.26.37:419][562]LogPlayLevel: PIE: World Init took: (0.004722s)
+[2022.09.14-14.26.37:465][562]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.09.14-14.26.37:469][562]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2022.09.14-14.26.37:469][562]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.14-14.26.37:469][562]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.14-14.26.37:469][562]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.14-14.26.37:469][562]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.14-14.26.37:469][562]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.14-14.26.37:469][562]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.14-14.26.37:469][562]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.14-14.26.37:469][562]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.14-14.26.37:469][562]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.14-14.26.37:469][562]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.14-14.26.37:469][562]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.14-14.26.37:472][562]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.14-14.26.37:497][562]LogAudioMixer: Display: Using Audio Hardware Device Headphones (WH-1000XM4 Stereo)
+[2022.09.14-14.26.37:497][562]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.14-14.26.37:497][562]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.14-14.26.37:497][562]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.14-14.26.37:498][562]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2022.09.14-14.26.37:498][562]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2022.09.14-14.26.37:500][562]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2022.09.14-14.26.37:500][562]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2022.09.14-14.26.37:500][562]LogInit: FAudioDevice initialized.
+[2022.09.14-14.26.37:500][562]LogAudio: Display: Audio Device (ID: 32) registered with world 'FirstPersonMap'.
+[2022.09.14-14.26.37:667][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.26.37:667][562]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.14-14.26.37:672][562]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.14-16.26.37
+[2022.09.14-14.26.37:672][562]LogWorld: Bringing up level for play took: 0.004200
+[2022.09.14-14.26.37:674][562]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2022.09.14-14.26.37:676][562]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.14-14.26.37:676][562]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.26.37:690][562]PIE: Server logged in
+[2022.09.14-14.26.37:691][562]PIE: Play in editor total start time 0.289 seconds.
+[2022.09.14-14.26.37:703][562]LogViewport: Scene viewport resized to 3826x1980, mode Windowed.
+[2022.09.14-14.26.37:905][563]Cmd: r.ScreenPercentage 18.181818
+[2022.09.14-14.26.37:905][563]LogEngine: Display: r.ScreenPercentage=18.181818 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2022.09.14-14.26.37:905][563]r.ScreenPercentage = "18.1818"
+[2022.09.14-14.26.37:905][563]Cmd: r.upscale.quality 0
+[2022.09.14-14.26.37:905][563]r.Upscale.Quality = "0"
+[2022.09.14-14.26.41:390][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.26.41:390][630]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.26.41:392][630]LogSlate: Window 'Campan Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.14-14.26.41:450][630]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.26.41:451][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.26.41:466][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.14-14.26.41:473][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.26.41:529][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.09.14-14.26.41:531][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.09.14-14.26.41:542][630]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2022.09.14-14.26.41:569][631]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.09.14-14.27.12:120][170]LogAssetEditorSubsystem: Opening Asset editor for SoundClass /Game/Assets/Sound/MyAtmosphere.MyAtmosphere
+[2022.09.14-14.27.32:700][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyMaster" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMaster.uasset" SILENT=true
+[2022.09.14-14.27.32:702][356]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyMaster
+[2022.09.14-14.27.32:703][356]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyMaster59B6F6B84E30EBA47C9572B5BB5FA9CB.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyMaster.uasset'
+[2022.09.14-14.27.32:724][356]AssetCheck: New page: Asset Save: MyMaster
+[2022.09.14-14.27.32:725][356]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyMaster.MyMaster
+[2022.09.14-14.27.35:523][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.14-14.27.35:535][513]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.14-14.27.35:535][513]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.14-14.27.35:535][513]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.27.35:535][513]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.14-14.27.35:535][513]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.14-14.27.35:535][513]LogWorldPartition: Display: GetPartitionedActors took 75 us
+[2022.09.14-14.27.35:536][513]LogWorldPartition: Display: GenerateStreaming took 589 us
+[2022.09.14-14.27.35:536][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.14-14.27.35:536][513]PIE: New page: PIE session: FirstPersonMap (14 Sep 2022, 18:27:35)
+[2022.09.14-14.27.35:537][513]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.27.35:548][513]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.14-14.27.35:548][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011736s)
+[2022.09.14-14.27.35:548][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011858s)
+[2022.09.14-14.27.35:549][513]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.27.35:549][513]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.14-14.27.35:550][513]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.14-14.27.35:550][513]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.14-14.27.35:552][513]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.09.14-14.27.35:552][513]LogPlayLevel: PIE: World Init took: (0.003644s)
+[2022.09.14-14.27.35:600][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.09.14-14.27.35:603][513]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2022.09.14-14.27.35:603][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.14-14.27.35:603][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.14-14.27.35:603][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.14-14.27.35:603][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.14-14.27.35:603][513]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.14-14.27.35:603][513]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.14-14.27.35:603][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.14-14.27.35:603][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.14-14.27.35:604][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.14-14.27.35:604][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.14-14.27.35:604][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.14-14.27.35:606][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.14-14.27.35:630][513]LogAudioMixer: Display: Using Audio Hardware Device Headphones (WH-1000XM4 Stereo)
+[2022.09.14-14.27.35:631][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.14-14.27.35:631][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.14-14.27.35:631][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.14-14.27.35:632][513]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2022.09.14-14.27.35:633][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2022.09.14-14.27.35:635][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2022.09.14-14.27.35:635][513]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2022.09.14-14.27.35:635][513]LogInit: FAudioDevice initialized.
+[2022.09.14-14.27.35:635][513]LogAudio: Display: Audio Device (ID: 33) registered with world 'FirstPersonMap'.
+[2022.09.14-14.27.35:808][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.27.35:808][513]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.14-14.27.35:812][513]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.14-16.27.35
+[2022.09.14-14.27.35:813][513]LogWorld: Bringing up level for play took: 0.004165
+[2022.09.14-14.27.35:815][513]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2022.09.14-14.27.35:817][513]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.14-14.27.35:817][513]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.14-14.27.35:829][513]PIE: Server logged in
+[2022.09.14-14.27.35:832][513]PIE: Play in editor total start time 0.3 seconds.
+[2022.09.14-14.27.35:846][513]LogViewport: Scene viewport resized to 3826x1980, mode Windowed.
+[2022.09.14-14.27.36:069][514]Cmd: r.ScreenPercentage 18.181818
+[2022.09.14-14.27.36:069][514]LogEngine: Display: r.ScreenPercentage=18.181818 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2022.09.14-14.27.36:069][514]r.ScreenPercentage = "18.1818"
+[2022.09.14-14.27.36:070][514]Cmd: r.upscale.quality 0
+[2022.09.14-14.27.36:070][514]r.Upscale.Quality = "0"
+[2022.09.14-14.27.39:198][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.14-14.27.39:198][573]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.14-14.27.39:200][573]LogSlate: Window 'Campan Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.14-14.27.39:261][573]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.27.39:262][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.27.39:277][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.14-14.27.39:286][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.27.39:336][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.09.14-14.27.39:338][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.09.14-14.27.39:349][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.09.14-14.27.39:374][574]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.09.14-14.28.05:415][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.09.14-14.28.05:419][770]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9_Auto8
+[2022.09.14-14.28.05:419][770]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/07M8R0YLE65TSKLJQKDCQ9_Auto8B740D9F1488973B68D502DB7E21C33AB.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9_Auto8.uasset'
+[2022.09.14-14.28.05:420][770]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.049
+[2022.09.14-14.28.05:420][770]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
+[2022.09.14-14.28.05:421][770]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sound/MyAtmosphere] ([1] browsable assets)...
+[2022.09.14-14.28.05:421][770]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sound/MyAtmosphere]
+[2022.09.14-14.28.05:422][770]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Sound/MyAtmosphere_Auto8
+[2022.09.14-14.28.05:422][770]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyAtmosphere_Auto82B58F0BD4E35BF790CF1ABB59BCD736B.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Autosaves/Game/Assets/Sound/MyAtmosphere_Auto8.uasset'
+[2022.09.14-14.28.05:423][770]LogFileHelpers: Auto-saving content packages took 0.003
+[2022.09.14-14.29.59:231][111]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speaker / Headphone (Realtek(R) Audio), InstanceID=1
+[2022.09.14-14.29.59:231][111]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=11584
+[2022.09.14-14.29.59:559][111]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b20b49ca-d6e4-43f3-8fdc-c704d35e52a4}, Name=Speaker / Headphone (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=265.21
+[2022.09.14-14.29.59:559][111]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.14-14.29.59:567][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.14-14.30.39:503][476]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.14-14.30.39:527][476]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.14-14.30.39:541][477]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.14-14.30.46:026][697]LogContentBrowser: Attempting asset rename: NewFolder -> Visuels
+[2022.09.14-14.30.46:027][697]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.14-14.31.08:421][836]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\Downloads\poupee_allongee.fbx)
+[2022.09.14-14.31.08:467][836]LogFbx: Loading FBX Scene from C:\Users\theda\Downloads\poupee_allongee.fbx
+[2022.09.14-14.31.08:481][836]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.14-14.31.13:480][836]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.14-14.31.13:549][836]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\alexa\OneDrive\Documents\Boulot\fac\Campan slow jam\UVs_poupee_homme2.png
+[2022.09.14-14.31.13:561][836]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 39A4DCE5C1159452A5A559A7C2344043929A03EC), compiling. 
+[2022.09.14-14.31.13:576][836]LogFbx: Display: Triangulating static mesh pantalon poupée 1
+[2022.09.14-14.31.13:662][836]LogStaticMesh: Display: Building static mesh poupee_allongee...
+[2022.09.14-14.31.13:704][836]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.31.13:736][836]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: Shaders Compiled: 2
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.15 s
+[2022.09.14-14.31.16:999][920]LogShaderCompilers: Display: Job execution time: average 2.55 s, max 2.55 s
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: Job life time (pending + execution): average 2.69 s, max 2.69
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.69 s
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: Average processing rate: 0.37 jobs/sec
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: Effective parallelization: 0.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2022.09.14-14.31.17:000][920]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.31.19:184][976]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.31.19:223][976]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.31.38:651][102]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.09.14-14.31.38:651][102]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [12664ms] waiting for h/w. InstanceID=1
+[2022.09.14-14.31.38:651][102]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049353s
+[2022.09.14-14.31.39:987][102]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003009s (1.384534s overbudget)
+[2022.09.14-14.31.40:087][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Visuels/Material_001" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_001.uasset" SILENT=true
+[2022.09.14-14.31.40:090][102]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/Material_001
+[2022.09.14-14.31.40:090][102]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Material_001A80DEE7942A80E0D34DC5588B47A2CFD.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_001.uasset'
+[2022.09.14-14.31.40:140][102]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/poupee_allongee
+[2022.09.14-14.31.40:140][102]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/poupee_allongee90AD9B204B7A137D00723E98DEE0F3BA.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/poupee_allongee.uasset'
+[2022.09.14-14.31.40:162][102]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-14.31.40:162][102]LogContentValidation: Display: Validating Material /Game/Assets/Visuels/Material_001.Material_001
+[2022.09.14-14.31.40:162][102]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.31.40:170][103]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=11584
+[2022.09.14-14.31.40:248][105]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b20b49ca-d6e4-43f3-8fdc-c704d35e52a4}, Name=Speaker / Headphone (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=35.47
+[2022.09.14-14.31.40:248][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.14-14.31.40:256][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.14-14.31.42:617][158]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.31.42:617][158]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.31.42:617][158]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_2
+[2022.09.14-14.31.43:345][176]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.31.43:345][176]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.31.43:348][176]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F733601_1745626423
+[2022.09.14-14.32.15:550][101]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Visuels/Material_001.Material_001
+[2022.09.14-14.32.15:554][101]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: E6B33B88CA688CB54B8018047034C420B3A5D58E), compiling. 
+[2022.09.14-14.32.15:594][101]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.32.15:778][101]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: ABAB102C0BAB9610ABF721920BF7553375CC24F9), compiling. 
+[2022.09.14-14.32.15:784][101]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0CBD93C6E69677682747CD6DDCA6886B649887AB), compiling. 
+[2022.09.14-14.32.15:840][101]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.32.15:840][101]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.32.15:840][101]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.32.15:853][101]LogViewport: Scene viewport resized to 750x874, mode Windowed.
+[2022.09.14-14.32.16:048][103]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.32.16:048][103]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.32.16:048][103]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.32.18:175][201]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x21 sparse distance field, 0.5Mb total, 0.0Mb always loaded, 80% occupied, 3 triangles, Floor_Mesh
+[2022.09.14-14.32.19:582][246]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.32.19:582][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.32.38:877][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.09.14-14.32.43:584][736]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.14-14.32.45:623][790]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.09.14-14.32.47:009][790]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.14-14.32.47:100][790]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Assets/Visuels/Material_001.Material_001
+	Asset Type: Material
+	Asset Name: /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+	Asset Type: StaticMesh
+[2022.09.14-14.32.47:491][790]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.09.14-14.32.47:529][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.09.14-14.32.47:567][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.09.14-14.32.51:581][856]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\Downloads\poupee_allongee.fbx)
+[2022.09.14-14.32.51:591][856]LogFbx: Loading FBX Scene from C:\Users\theda\Downloads\poupee_allongee.fbx
+[2022.09.14-14.32.51:598][856]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.14-14.33.22:973][856]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.14-14.33.23:009][856]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\alexa\OneDrive\Documents\Boulot\fac\Campan slow jam\UVs_poupee_homme2.png
+[2022.09.14-14.33.23:014][856]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 6C74B835170AB9F4CD8C8EC9A83A3F1A6D2AB2D5), compiling. 
+[2022.09.14-14.33.23:017][856]LogFbx: Display: Triangulating static mesh pantalon poupée 1
+[2022.09.14-14.33.23:080][856]LogStaticMesh: Display: Building static mesh poupee_allongee...
+[2022.09.14-14.33.23:115][856]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.33.23:144][856]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.14-14.33.27:218][966]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.33.27:260][966]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.33.46:415][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.33.46:415][204]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.33.46:416][204]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_7
+[2022.09.14-14.33.46:738][211]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.33.46:738][211]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.33.46:739][211]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F733601_1869017424
+[2022.09.14-14.33.51:602][355]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Visuels/Material_001.Material_001
+[2022.09.14-14.33.51:604][355]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 1B7786D4E6241A9B7AA99C898C689330C03E7A18), compiling. 
+[2022.09.14-14.33.51:625][355]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.33.51:728][355]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: E6752222F8876D0DB0286A7FB544E7F418B0BC8D), compiling. 
+[2022.09.14-14.33.51:733][355]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 914BE54AA86941A24FB72CEB40313E2446DD0370), compiling. 
+[2022.09.14-14.33.51:736][355]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F4BACA0F1C62335637BFBC4E885F63D056B52ABA), compiling. 
+[2022.09.14-14.33.51:765][355]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.33.51:765][355]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.33.51:765][355]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.33.51:770][355]LogViewport: Scene viewport resized to 750x874, mode Windowed.
+[2022.09.14-14.33.51:875][357]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.33.51:875][357]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.33.51:875][357]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.34.22:099][795]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\theda\Downloads\UVs_poupee_homme2.png)
+[2022.09.14-14.34.22:127][795]LogTexture: Display: Building textures: /Game/Assets/Visuels/UVs_poupee_homme2.UVs_poupee_homme2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.14-14.34.23:667][801]LogDerivedDataCache: C:/Users/theda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.033 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.14-14.35.02:415][788]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.09.14-14.35.02:432][788]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.09.14-14.35.02:445][789]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2022.09.14-14.35.04:993][854]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2022.09.14-14.35.04:994][854]LogContentBrowser: End creating deferred item NewMaterial
+[2022.09.14-14.35.06:445][886]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Visuels/NewMaterial.NewMaterial
+[2022.09.14-14.35.06:448][886]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: B3D59381E6F79E5D466F959A0171C0D8CD56F674), compiling. 
+[2022.09.14-14.35.06:468][886]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.35.06:555][886]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: D7BB0188E51C03AD28EF32B62B7DD30DC8F2853E), compiling. 
+[2022.09.14-14.35.06:560][886]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: F00AFFE8FA6077DE1DCFE5087347B10AAD67D84B), compiling. 
+[2022.09.14-14.35.06:590][886]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.06:590][886]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.06:590][886]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.06:596][886]LogViewport: Scene viewport resized to 750x874, mode Windowed.
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: Total job queries 82, among them cache hits 48 (58.54%)
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: Tracking 19 distinct input hashes that result in 14 distinct outputs (73.68%)
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: RAM used: 0.03 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: Shaders Compiled: 28
+[2022.09.14-14.35.08:006][948]LogShaderCompilers: Display: Jobs assigned 22, completed 19 (86.36%)
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Average time worker was idle: 47.00 s
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Time job spent in pending queue: average 3.00 s, longest 14.94 s
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Job execution time: average 4.45 s, max 13.75 s
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Job life time (pending + execution): average 7.92 s, max 16.26
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 24.34 s
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Average processing rate: 0.78 jobs/sec
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Effective parallelization: 1.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.96 sec, max 2.26 sec, min 1.67 sec)
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.90 sec, max 2.08 sec, min 1.73 sec)
+[2022.09.14-14.35.08:007][948]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.21 sec, max 1.21 sec, min 1.21 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.98% of total time (compiled    2 times, average 1.96 sec, max 2.26 sec, min 1.67 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.52% of total time (compiled    2 times, average 1.90 sec, max 2.08 sec, min 1.73 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.70% of total time (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.40% of total time (compiled    2 times, average 0.79 sec, max 0.80 sec, min 0.77 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.96% of total time (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2022.09.14-14.35.08:008][948]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.35.09:218][  1]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.09:218][  1]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.09:218][  1]MaterialEditorStats: Shader Count: 3
+[2022.09.14-14.35.16:651][344]Cmd: TRANSACTION UNDO
+[2022.09.14-14.35.16:651][344]LogEditorTransaction: Undo Create Actors
+[2022.09.14-14.35.16:699][344]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: B26B26C4648B84D15C81BC52B6FB06B9BAAFBDDF), compiling. 
+[2022.09.14-14.35.16:715][344]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 9BA45AB6470063A1D92076DA9D7A120A80226F75), compiling. 
+[2022.09.14-14.35.16:752][344]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.16:752][344]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.16:752][344]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.16:752][344]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.16:752][344]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.16:752][344]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.16:871][346]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.16:871][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.16:871][346]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.35.16:938][347]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.16:938][347]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.16:938][347]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.35.19:134][438]Cmd: TRANSACTION REDO
+[2022.09.14-14.35.19:134][438]LogEditorTransaction: Redo Create Actors
+[2022.09.14-14.35.19:188][438]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: F405A0ABBC73AF9B4DB57AD5E6C09EC504F3305E), compiling. 
+[2022.09.14-14.35.19:196][438]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 39257202FF2CAC4DB292262EEE84A27DB36F3AE6), compiling. 
+[2022.09.14-14.35.19:219][438]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.19:219][438]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.19:219][438]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.19:219][438]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.19:219][438]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.19:219][438]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.19:253][440]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.19:253][440]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.19:254][440]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.35.19:271][441]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.19:271][441]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.19:271][441]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.35.25:478][609]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: DBB15AEFF9F29C23D9DCFDC0A589BFE34CDDA65E), compiling. 
+[2022.09.14-14.35.25:483][609]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2812ACDD4E4B9EDCD9A3C52E5967B8EAB72B45EF), compiling. 
+[2022.09.14-14.35.25:486][609]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 137E3C2A7E036BA8E4030C66D8EEE570A4E84688), compiling. 
+[2022.09.14-14.35.25:490][609]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.25:490][609]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.25:490][609]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.25:561][611]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.25:561][611]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.25:561][611]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.35.30:711][837]LogEditorTransaction: Undo Move Node
+[2022.09.14-14.35.30:715][837]LogMaterial: Display: Missing cached shadermap for Preview:Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 85583D35DE614EA5B6183CB9ED9D124C21989C37), compiling. 
+[2022.09.14-14.35.30:729][837]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 73102A40C74460DF241B82D5E77C221363EEBA39), compiling. 
+[2022.09.14-14.35.30:763][837]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.30:763][837]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.30:763][837]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.30:763][837]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.35.30:763][837]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.30:763][837]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.35.30:866][839]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.30:866][839]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.30:866][839]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.35.30:932][840]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.14-14.35.30:932][840]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.14-14.35.30:932][840]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.35.42:402][ 50]LogSlate: Window 'Message' being destroyed
+[2022.09.14-14.35.42:414][ 50]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Assets/Visuels/NewMaterial.NewMaterial
+(Selecting 'No' will cause all changes to be lost!)
+[2022.09.14-14.35.42:438][ 50]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.35.42:438][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.35.45:891][120]LogSlate: Window 'Message' being destroyed
+[2022.09.14-14.35.45:898][120]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Assets/Visuels/Material_001.Material_001
+(Selecting 'No' will cause all changes to be lost!)
+[2022.09.14-14.35.45:925][120]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.35.45:925][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.35.49:540][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.09.14-14.35.50:847][238]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.14-14.35.50:919][238]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Visuels/UVs_poupee_homme2.UVs_poupee_homme2
+	Asset Type: Texture2D
+[2022.09.14-14.35.51:222][238]LogMaterial: Display: Missing cached shadermap for Preview:NewMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: F5407A71F222F58BCCE45051B728AC53780FE014), compiling. 
+[2022.09.14-14.35.51:300][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.09.14-14.35.51:343][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.09.14-14.35.51:385][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.09.14-14.35.51:957][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.09.14-14.35.52:822][246]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.14-14.35.52:875][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.09.14-14.35.52:929][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.09.14-14.35.52:979][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.09.14-14.35.53:981][269]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9
+[2022.09.14-14.35.53:981][269]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/07M8R0YLE65TSKLJQKDCQ9566DDA9847A1B1E0A2848193437879FF.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1U/07M8R0YLE65TSKLJQKDCQ9.uasset'
+[2022.09.14-14.35.53:985][269]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/M2/VD669FYN3LCHBYFNO0S8C6
+[2022.09.14-14.35.53:985][269]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/VD669FYN3LCHBYFNO0S8C6186510564F37C6EBE310DE9949AE3A06.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/M2/VD669FYN3LCHBYFNO0S8C6.uasset'
+[2022.09.14-14.35.53:988][269]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/0F/09GAAPL15C2DNYCA6CXI5Z
+[2022.09.14-14.35.53:988][269]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/09GAAPL15C2DNYCA6CXI5Z8F93BC284BBF2EEC06FEF3BE513B6094.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/0F/09GAAPL15C2DNYCA6CXI5Z.uasset'
+[2022.09.14-14.35.54:007][269]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-14.35.54:007][269]LogContentValidation: Display: Validating CollisionBoxInteract_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.CollisionBoxInteract_C_UAID_04D3B0B5265F633601_2133492607
+[2022.09.14-14.35.54:007][269]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F733601_1745626423
+[2022.09.14-14.35.54:007][269]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F733601_1869017424
+[2022.09.14-14.35.55:185][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Visuels/Material_001" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_001.uasset" SILENT=true
+[2022.09.14-14.35.55:186][295]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/Material_001
+[2022.09.14-14.35.55:186][295]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Material_001E102553D4FC73732B5BB6DBE2B5DA66B.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_001.uasset'
+[2022.09.14-14.35.55:205][295]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/poupee_allongee
+[2022.09.14-14.35.55:205][295]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/poupee_allongeeA898F8CC47565AFC5B215DAB2604B5EE.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/poupee_allongee.uasset'
+[2022.09.14-14.35.55:223][295]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-14.35.55:223][295]LogContentValidation: Display: Validating Material /Game/Assets/Visuels/Material_001.Material_001
+[2022.09.14-14.35.55:223][295]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+[2022.09.14-14.36.00:838][390]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\Downloads\Poupee_assise1.fbx)
+[2022.09.14-14.36.00:848][390]LogFbx: Loading FBX Scene from C:\Users\theda\Downloads\Poupee_assise1.fbx
+[2022.09.14-14.36.00:854][390]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.14-14.36.02:318][390]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.14-14.36.02:353][390]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\alexa\OneDrive\Documents\Boulot\fac\Campan slow jam\UVs_poupee_homme1.png
+[2022.09.14-14.36.02:357][390]LogMaterial: Display: Missing cached shadermap for Material in PCD3D_SM5, Default, SM5 (DDC key hash: 555FC92E976747279C262308D95D02E5DBE81AAA), compiling. 
+[2022.09.14-14.36.02:360][390]LogFbx: Display: Triangulating static mesh pantalon poupée 1
+[2022.09.14-14.36.02:434][390]LogStaticMesh: Display: Building static mesh Poupee_assise1...
+[2022.09.14-14.36.02:470][390]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Visuels/Poupee_assise1.Poupee_assise1
+[2022.09.14-14.36.02:499][390]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.14-14.36.10:457][578]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.36.10:507][578]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.36.20:737][831]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2022.09.14-14.36.22:331][831]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.14-14.36.22:435][831]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Assets/Visuels/Material_001.Material_001
+	Asset Type: Material
+	Asset Name: /Game/Assets/Visuels/poupee_allongee.poupee_allongee
+	Asset Type: StaticMesh
+	Asset Name: /Game/Assets/Visuels/Material.Material
+	Asset Type: Material
+	Asset Name: /Game/Assets/Visuels/Poupee_assise1.Poupee_assise1
+	Asset Type: StaticMesh
+[2022.09.14-14.36.22:932][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.09.14-14.36.22:977][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.09.14-14.36.23:021][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.09.14-14.36.24:209][858]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/0F/09GAAPL15C2DNYCA6CXI5Z
+[2022.09.14-14.36.24:210][858]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/09GAAPL15C2DNYCA6CXI5ZDE6BD8904F0CBA9894A634930E50F260.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/0F/09GAAPL15C2DNYCA6CXI5Z.uasset'
+[2022.09.14-14.36.24:229][858]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_04D3B0B5265F733601_1869017424
+[2022.09.14-14.36.24:229][858]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F733601_1869017424
+[2022.09.14-14.39.51:477][378]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\Downloads\poupee_allongee_2_textures.fbx)
+[2022.09.14-14.39.51:488][378]LogFbx: Loading FBX Scene from C:\Users\theda\Downloads\poupee_allongee_2_textures.fbx
+[2022.09.14-14.39.51:498][378]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.14-14.39.53:555][378]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.14-14.39.53:621][378]LogTexture: Display: Building textures: /Game/Assets/Visuels/UVs_poupee_homme2.UVs_poupee_homme2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.14-14.39.53:621][378]LogMaterial: Display: Missing cached shadermap for Material_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 72B2CC74B03AD96F6D9724A8CE4E601CC3149BF1), compiling. 
+[2022.09.14-14.39.53:625][378]LogFbx: Display: Triangulating static mesh pantalon poupée 1
+[2022.09.14-14.39.53:731][378]LogStaticMesh: Display: Building static mesh poupee_allongee_2_textures...
+[2022.09.14-14.39.53:769][378]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures
+[2022.09.14-14.39.53:801][378]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.14-14.39.55:589][423]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Total job queries 142, among them cache hits 98 (69.01%)
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Tracking 29 distinct input hashes that result in 18 distinct outputs (62.07%)
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: RAM used: 0.04 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Shaders Compiled: 34
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Jobs assigned 32, completed 29 (90.62%)
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Average time worker was idle: 70.60 s
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Time job spent in pending queue: average 2.09 s, longest 14.94 s
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Job execution time: average 3.59 s, max 13.75 s
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Job life time (pending + execution): average 5.89 s, max 16.26
+[2022.09.14-14.39.55:590][423]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 30.97 s
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display: Average processing rate: 0.94 jobs/sec
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display: Effective parallelization: 1.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 1.81 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 1.78 sec, max 2.00 sec, min 1.65 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 1.73 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.21 sec, max 1.21 sec, min 1.21 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.76% of total time (compiled    5 times, average 1.81 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.69% of total time (compiled    5 times, average 1.73 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.44% of total time (compiled    3 times, average 1.78 sec, max 2.00 sec, min 1.65 sec)
+[2022.09.14-14.39.55:591][423]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.97% of total time (compiled    4 times, average 0.79 sec, max 0.83 sec, min 0.77 sec)
+[2022.09.14-14.39.55:592][423]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 3.06% of total time (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2022.09.14-14.39.55:592][423]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.40.00:787][573]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures
+[2022.09.14-14.40.00:787][573]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures
+[2022.09.14-14.40.00:788][573]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_11
+[2022.09.14-14.40.01:559][594]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures
+[2022.09.14-14.40.01:559][594]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures
+[2022.09.14-14.40.01:560][594]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F743601_1170096601
+[2022.09.14-14.48.06:249][123]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2022.09.14-14.48.06:255][123]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ_Auto9
+[2022.09.14-14.48.06:255][123]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/ZSHXU3CG2LSL8Q7OO5M5FQ_Auto9666055A343C36BC286E0468207149ED9.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ_Auto9.uasset'
+[2022.09.14-14.48.06:256][123]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.058
+[2022.09.14-14.48.06:256][123]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.058
+[2022.09.14-14.48.06:256][123]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Visuels/poupee_allongee_2_textures] ([1] browsable assets)...
+[2022.09.14-14.48.06:272][123]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures]
+[2022.09.14-14.48.06:272][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Visuels/poupee_allongee_2_textures]
+[2022.09.14-14.48.06:279][123]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Visuels/poupee_allongee_2_textures_Auto9
+[2022.09.14-14.48.06:279][123]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/poupee_allongee_2_textures_Auto9B510FD17488E43F87F522DAA60567550.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Autosaves/Game/Assets/Visuels/poupee_allongee_2_textures_Auto9.uasset'
+[2022.09.14-14.48.06:279][123]LogFileHelpers: Auto-saving content packages took 0.024
+[2022.09.14-14.49.28:572][ 54]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Visuels/Material_002.Material_002
+[2022.09.14-14.49.28:575][ 54]LogMaterial: Display: Missing cached shadermap for Preview:Material_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 45DB4ED69937F2434E4D4B2B5F7DD2FDC14E411E), compiling. 
+[2022.09.14-14.49.28:600][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: Total job queries 154, among them cache hits 102 (66.23%)
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 19 distinct outputs (59.38%)
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: RAM used: 0.04 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: Shaders Compiled: 46
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: Jobs assigned 32, completed 32 (100.00%)
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: Average time worker was idle: 70.60 s
+[2022.09.14-14.49.28:601][ 54]LogShaderCompilers: Display: Time job spent in pending queue: average 2.09 s, longest 14.94 s
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Job execution time: average 3.48 s, max 13.75 s
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Job life time (pending + execution): average 5.57 s, max 16.26
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 32.08 s
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Average processing rate: 1.00 jobs/sec
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Effective parallelization: 1.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 1.84 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 1.81 sec, max 2.00 sec, min 1.65 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 1.76 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.21 sec, max 1.21 sec, min 1.21 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.17% of total time (compiled    6 times, average 1.84 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.16% of total time (compiled    6 times, average 1.76 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.85% of total time (compiled    4 times, average 1.81 sec, max 2.00 sec, min 1.65 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.97% of total time (compiled    4 times, average 0.79 sec, max 0.83 sec, min 0.77 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.67% of total time (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2022.09.14-14.49.28:602][ 54]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.49.28:687][ 54]LogMaterial: Display: Missing cached shadermap for Preview:Material_002 in PCD3D_SM5, Default, SM5 (DDC key hash: B11DFB479AE59A42C83BFE6E5D4629503D01CE7E), compiling. 
+[2022.09.14-14.49.28:693][ 54]LogMaterial: Display: Missing cached shadermap for Preview:Material_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 87D5A832DAE39A4C9C908E019F8294ED6C5F4955), compiling. 
+[2022.09.14-14.49.28:696][ 54]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 31FCCB31E6C525360D0E82DAAB58817036C5215C), compiling. 
+[2022.09.14-14.49.28:723][ 54]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.14-14.49.28:723][ 54]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.14-14.49.28:723][ 54]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.14-14.49.28:723][ 54]MaterialEditorStats: Shader Count: 0
+[2022.09.14-14.49.28:727][ 54]LogViewport: Scene viewport resized to 750x874, mode Windowed.
+[2022.09.14-14.49.29:057][ 56]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.14-14.49.29:057][ 56]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.14-14.49.29:057][ 56]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.14-14.49.29:057][ 56]MaterialEditorStats: Shader Count: 4
+[2022.09.14-14.50.14:601][  9]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-C4ORKTI
+[2022.09.14-14.50.15:980][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.09.14-14.50.18:017][ 35]LogSlate: Window 'Save Content' being destroyed
+[2022.09.14-14.50.20:193][ 35]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.14-14.50.22:270][ 35]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003191s (2.140086s overbudget)
+[2022.09.14-14.50.22:368][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Visuels/Material_002" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_002.uasset" SILENT=true
+[2022.09.14-14.50.22:373][ 35]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/Material_002
+[2022.09.14-14.50.22:373][ 35]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Material_002DE03F2A642AE27217DBBC3968B42A6F1.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_002.uasset'
+[2022.09.14-14.50.22:374][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sound/MyAtmosphere" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyAtmosphere.uasset" SILENT=true
+[2022.09.14-14.50.22:375][ 35]LogSavePackage: Moving output files for package: /Game/Assets/Sound/MyAtmosphere
+[2022.09.14-14.50.22:376][ 35]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MyAtmosphere0F8D81F84A529A18D23F6D8B028F08AD.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Sound/MyAtmosphere.uasset'
+[2022.09.14-14.50.22:385][ 35]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/poupee_allongee_2_textures
+[2022.09.14-14.50.22:385][ 35]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/poupee_allongee_2_textures1D91EA9C4B926F0FCD74839C272B2EFA.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/poupee_allongee_2_textures.uasset'
+[2022.09.14-14.50.22:388][ 35]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ
+[2022.09.14-14.50.22:388][ 35]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/ZSHXU3CG2LSL8Q7OO5M5FQD56DC8804A3A45259382D584BC25ECEC.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ.uasset'
+[2022.09.14-14.50.22:439][ 35]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/UVs_poupee_homme2
+[2022.09.14-14.50.22:439][ 35]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/UVs_poupee_homme20BAE1D8B4217D0F9780FD38C800E4303.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/UVs_poupee_homme2.uasset'
+[2022.09.14-14.50.22:475][ 36]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-14.50.22:475][ 36]LogContentValidation: Display: Validating SoundClass /Game/Assets/Sound/MyAtmosphere.MyAtmosphere
+[2022.09.14-14.50.22:475][ 36]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F743601_1170096601
+[2022.09.14-14.50.22:475][ 36]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures
+[2022.09.14-14.50.22:475][ 36]LogContentValidation: Display: Validating Texture2D /Game/Assets/Visuels/UVs_poupee_homme2.UVs_poupee_homme2
+[2022.09.14-14.50.22:475][ 36]LogContentValidation: Display: Validating Material /Game/Assets/Visuels/Material_002.Material_002
+[2022.09.14-14.52.43:117][571]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.14-14.54.14:100][680]LogSlate: Window 'Material Baking Options' being destroyed
+[2022.09.14-14.55.37:947][723]LogViewport: Scene viewport resized to 2309x900, mode Windowed.
+[2022.09.14-14.55.40:028][754]LogViewport: Scene viewport resized to 3049x1179, mode Windowed.
+[2022.09.14-14.55.41:312][779]LogViewport: Scene viewport resized to 2309x900, mode Windowed.
+[2022.09.14-14.55.43:257][798]LogViewport: Scene viewport resized to 3049x1179, mode Windowed.
+[2022.09.14-14.55.57:488][117]LogViewport: Scene viewport resized to 3822x1179, mode Windowed.
+[2022.09.14-14.56.07:878][278]LogViewport: Scene viewport resized to 1905x1179, mode Windowed.
+[2022.09.14-14.56.11:014][360]LogSlate: Window 'Outliner' being destroyed
+[2022.09.14-14.56.13:097][415]LogViewport: Scene viewport resized to 2273x1179, mode Windowed.
+[2022.09.14-14.56.13:218][417]LogViewport: Scene viewport resized to 2496x1179, mode Windowed.
+[2022.09.14-14.57.03:406][896]LogSlate: Window 'Message' being destroyed
+[2022.09.14-14.57.03:413][896]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Assets/Visuels/Material_002.Material_002
+(Selecting 'No' will cause all changes to be lost!)
+[2022.09.14-14.57.03:443][896]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-14.57.03:443][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-14.57.08:055][ 59]LogViewport: Scene viewport resized to 2583x1179, mode Windowed.
+[2022.09.14-14.57.08:271][ 61]LogViewport: Scene viewport resized to 2828x1179, mode Windowed.
+[2022.09.14-14.57.08:358][ 62]LogViewport: Scene viewport resized to 2859x1179, mode Windowed.
+[2022.09.14-14.57.08:568][ 69]LogViewport: Scene viewport resized to 2917x1179, mode Windowed.
+[2022.09.14-14.57.30:387][203]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.57.30:430][203]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.57.36:027][258]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\Downloads\fontaine.fbx)
+[2022.09.14-14.57.36:038][258]LogFbx: Loading FBX Scene from C:\Users\theda\Downloads\fontaine.fbx
+[2022.09.14-14.57.36:045][258]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.14-14.57.38:880][258]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.14-14.57.38:932][258]LogTexture: Display: Building textures: /Game/Assets/Visuels/uv_fontaine_texture.uv_fontaine_texture (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.14-14.57.38:932][258]LogMaterial: Display: Missing cached shadermap for Material in PCD3D_SM5, Default, SM5 (DDC key hash: BD75609EA3B2F0AB98A607135CF77D2C92AD048D), compiling. 
+[2022.09.14-14.57.38:967][258]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 80C6A08F535B6D8B6C70ADBB15E10DC377F8667C), compiling. 
+[2022.09.14-14.57.38:972][258]LogTexture: Display: Building textures: /Game/Assets/Visuels/uv_fontaine_texture_ncl1_1.uv_fontaine_texture_ncl1_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.14-14.57.38:972][258]LogFbx: Display: Triangulating static mesh Sphere.001
+[2022.09.14-14.57.39:029][258]LogStaticMesh: Display: Building static mesh fontaine...
+[2022.09.14-14.57.39:058][258]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Visuels/fontaine.fontaine
+[2022.09.14-14.57.39:090][258]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'uv_fontaine_texture' was renamed 'uv_fontaine_texture_ncl1_1' 
+[2022.09.14-14.57.39:090][258]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: Total job queries 182, among them cache hits 110 (60.44%)
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: Tracking 47 distinct input hashes that result in 27 distinct outputs (57.45%)
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: Shaders Compiled: 46
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: Jobs assigned 51, completed 47 (92.16%)
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: Average time worker was idle: 132.21 s
+[2022.09.14-14.57.42:374][334]LogShaderCompilers: Display: Time job spent in pending queue: average 1.83 s, longest 14.94 s
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Job execution time: average 2.88 s, max 13.75 s
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Job life time (pending + execution): average 4.69 s, max 16.26
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 38.98 s
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Jobs were issued in 51 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Average processing rate: 1.21 jobs/sec
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Effective parallelization: 1.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 1.87 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 1.83 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 1.81 sec, max 2.00 sec, min 1.65 sec)
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.25 sec, max 1.30 sec, min 1.21 sec)
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 1.24 sec, max 1.32 sec, min 1.15 sec)
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.33% of total time (compiled    8 times, average 1.83 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-14.57.42:375][334]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.01% of total time (compiled    7 times, average 1.87 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-14.57.42:376][334]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.03% of total time (compiled    4 times, average 1.81 sec, max 2.00 sec, min 1.65 sec)
+[2022.09.14-14.57.42:376][334]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.84% of total time (compiled    4 times, average 0.79 sec, max 0.83 sec, min 0.77 sec)
+[2022.09.14-14.57.42:376][334]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.82% of total time (compiled    2 times, average 1.25 sec, max 1.30 sec, min 1.21 sec)
+[2022.09.14-14.57.42:376][334]LogShaderCompilers: Display: ================================================
+[2022.09.14-14.57.43:399][355]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.57.43:454][355]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-14.57.46:650][438]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine.fontaine
+[2022.09.14-14.57.46:650][438]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine.fontaine
+[2022.09.14-14.57.46:650][438]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/fontaine.fontaine as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_39
+[2022.09.14-14.57.47:706][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine.fontaine
+[2022.09.14-14.57.47:706][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine.fontaine
+[2022.09.14-14.57.47:707][461]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/fontaine.fontaine as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_1162501778
+[2022.09.14-14.58.14:755][106]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-C4ORKTI
+[2022.09.14-14.58.16:326][145]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2022.09.14-14.58.16:391][145]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2022.09.14-14.58.17:918][145]LogSlate: Window 'Save Content' being destroyed
+[2022.09.14-14.58.18:005][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/NZ/987OQ7VOCDS2QCZ21NM2RH
+[2022.09.14-14.58.18:005][145]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/987OQ7VOCDS2QCZ21NM2RH66FB97FF45F5B2EA3EB9738C26068B22.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/NZ/987OQ7VOCDS2QCZ21NM2RH.uasset'
+[2022.09.14-14.58.18:057][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Visuels/fontaine" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/fontaine.uasset" SILENT=true
+[2022.09.14-14.58.18:062][145]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/fontaine
+[2022.09.14-14.58.18:062][145]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/fontaineEDE34B6A4295A3EFD062F0975149DEFD.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/fontaine.uasset'
+[2022.09.14-14.58.20:088][145]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.14-14.58.22:251][145]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003007s (2.168351s overbudget)
+[2022.09.14-14.58.22:359][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Visuels/Material" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material.uasset" SILENT=true
+[2022.09.14-14.58.22:360][145]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/Material
+[2022.09.14-14.58.22:360][145]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/MaterialD65AF85448F0D9C164D05388F0A4FC31.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material.uasset'
+[2022.09.14-14.58.24:486][145]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.14-14.58.26:264][145]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003989s (1.884454s overbudget)
+[2022.09.14-14.58.26:358][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Visuels/Material_001" FILE="../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_001.uasset" SILENT=true
+[2022.09.14-14.58.26:360][145]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/Material_001
+[2022.09.14-14.58.26:360][145]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/Material_001A97FD2254E48C22C0C6142B5D43E35F1.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/Material_001.uasset'
+[2022.09.14-14.58.26:363][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ
+[2022.09.14-14.58.26:364][145]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/ZSHXU3CG2LSL8Q7OO5M5FQ0ABB217348BF109DF093F0818A6A746C.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ.uasset'
+[2022.09.14-14.58.26:416][145]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/uv_fontaine_texture
+[2022.09.14-14.58.26:416][145]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/uv_fontaine_texture0DADFFDB4EB58015F5C22FACA9AA2630.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/uv_fontaine_texture.uasset'
+[2022.09.14-14.58.26:463][145]LogSavePackage: Moving output files for package: /Game/Assets/Visuels/uv_fontaine_texture_ncl1_1
+[2022.09.14-14.58.26:463][145]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/uv_fontaine_texture_ncl1_1DACF8674411F16B67F843CB106A77DF9.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/Assets/Visuels/uv_fontaine_texture_ncl1_1.uasset'
+[2022.09.14-14.58.26:495][146]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-14.58.26:495][146]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_1162501778
+[2022.09.14-14.58.26:496][146]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F743601_1170096601
+[2022.09.14-14.58.26:496][146]LogContentValidation: Display: Validating Texture2D /Game/Assets/Visuels/uv_fontaine_texture_ncl1_1.uv_fontaine_texture_ncl1_1
+[2022.09.14-14.58.26:496][146]LogContentValidation: Display: Validating Material /Game/Assets/Visuels/Material_001.Material_001
+[2022.09.14-14.58.26:496][146]LogContentValidation: Display: Validating Texture2D /Game/Assets/Visuels/uv_fontaine_texture.uv_fontaine_texture
+[2022.09.14-14.58.26:496][146]LogContentValidation: Display: Validating Material /Game/Assets/Visuels/Material.Material
+[2022.09.14-14.58.26:496][146]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Visuels/fontaine.fontaine
+[2022.09.14-14.59.37:244][985]Cmd: TRANSACTION UNDO
+[2022.09.14-14.59.37:244][985]LogEditorTransaction: Undo Set Scale
+[2022.09.14-14.59.37:783][992]Cmd: TRANSACTION UNDO
+[2022.09.14-14.59.37:783][992]LogEditorTransaction: Undo Set Scale
+[2022.09.14-15.00.10:367][758]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2022.09.14-15.00.10:421][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.09.14-15.00.11:842][758]LogSlate: Window 'Save Content' being destroyed
+[2022.09.14-15.00.11:960][758]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/NZ/987OQ7VOCDS2QCZ21NM2RH
+[2022.09.14-15.00.11:962][758]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/987OQ7VOCDS2QCZ21NM2RH5F9492A945495F3C3D1D47AB9790FA68.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/NZ/987OQ7VOCDS2QCZ21NM2RH.uasset'
+[2022.09.14-15.00.12:014][759]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_04D3B0B5265F753601_1162501778
+[2022.09.14-15.00.12:014][759]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_1162501778
+[2022.09.14-15.05.01:965][110]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-C4ORKTI
+[2022.09.14-15.05.09:099][325]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FirstPersonMap
+[2022.09.14-15.05.09:100][325]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.14-15.05.54:516][681]LogSlate: Took 0.006553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.09.14-15.06.58:920][609]BlueprintLog: New page: Compile FirstPersonMap
+[2022.09.14-15.06.59:012][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.09.14-15.07.07:825][121]LogFileHelpers: No new changes to save!
+[2022.09.14-15.07.07:882][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.09.14-15.07.07:893][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2022.09.14-15.07.07:894][121]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/FirstPersonMapF5E48E554FBF405EE40EB1AC0BBDF55F.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2022.09.14-15.07.07:908][121]LogFileHelpers: Saving map 'FirstPersonMap' took 0.084
+[2022.09.14-15.07.07:932][121]AssetCheck: New page: Asset Save: FirstPersonMap
+[2022.09.14-15.07.07:932][121]LogContentValidation: Display: Validating World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2022.09.14-15.07.08:547][155]BlueprintLog: New page: Compile FirstPersonMap
+[2022.09.14-15.07.08:635][155]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.09.14-15.07.10:314][245]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2022.09.14-15.07.10:379][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.09.14-15.07.15:044][245]LogSlate: Window 'Save Content' being destroyed
+[2022.09.14-15.07.15:130][245]LogFileHelpers: No new changes to save!
+[2022.09.14-15.07.15:193][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.09.14-15.07.15:200][245]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2022.09.14-15.07.15:201][245]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/FirstPersonMap8B2C285D4D3E3D8AB970BDAB74E401D2.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2022.09.14-15.07.15:216][245]LogFileHelpers: Saving map 'FirstPersonMap' took 0.086
+[2022.09.14-15.07.15:253][246]AssetCheck: New page: Asset Save: FirstPersonMap
+[2022.09.14-15.07.15:253][246]LogContentValidation: Display: Validating World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2022.09.14-15.11.56:310][492]LogFileHelpers: No new changes to save!
+[2022.09.14-15.11.56:362][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.09.14-15.11.56:369][492]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2022.09.14-15.11.56:369][492]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/FirstPersonMap917A73594A29D800E1FB988A53BF23CE.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2022.09.14-15.11.56:382][492]LogFileHelpers: Saving map 'FirstPersonMap' took 0.072
+[2022.09.14-15.11.56:399][492]AssetCheck: New page: Asset Save: FirstPersonMap
+[2022.09.14-15.11.56:399][492]LogContentValidation: Display: Validating World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2022.09.14-15.11.56:820][518]BlueprintLog: New page: Compile FirstPersonMap
+[2022.09.14-15.11.56:902][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.09.14-15.11.59:125][635]LogFileHelpers: No new changes to save!
+[2022.09.14-15.11.59:180][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.09.14-15.11.59:186][635]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2022.09.14-15.11.59:187][635]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/FirstPersonMapF2A533AC4DCDB639ACFC27AAFC421BB7.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2022.09.14-15.11.59:199][635]LogFileHelpers: Saving map 'FirstPersonMap' took 0.073
+[2022.09.14-15.11.59:216][635]AssetCheck: New page: Asset Save: FirstPersonMap
+[2022.09.14-15.11.59:216][635]LogContentValidation: Display: Validating World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2022.09.14-15.12.00:253][693]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.09.14-15.12.00:253][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.14-15.12.09:380][119]Cmd: DELETE
+[2022.09.14-15.12.09:381][119]Cmd: ACTOR DELETE
+[2022.09.14-15.12.09:386][119]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.14-15.12.09:443][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2022.09.14-15.12.09:455][119]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2022.09.14-15.12.24:003][487]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\theda\Downloads\fontaine_bonne_taille.fbx)
+[2022.09.14-15.12.24:013][487]LogFbx: Loading FBX Scene from C:\Users\theda\Downloads\fontaine_bonne_taille.fbx
+[2022.09.14-15.12.24:023][487]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.14-15.12.25:893][487]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.14-15.12.25:938][487]LogFbx: Display: Triangulating static mesh Sphere.001
+[2022.09.14-15.12.25:972][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Sphere_001...
+[2022.09.14-15.12.25:994][487]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Visuels/fontaine_bonne_taille_Sphere_001.fontaine_bonne_taille_Sphere_001
+[2022.09.14-15.12.26:026][487]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\alexa\OneDrive\Documents\Boulot\fac\Campan slow jam\fbx\fontaine bonne taille.fbm\uv_fontaine_texture.png
+[2022.09.14-15.12.26:031][487]LogMaterial: Display: Missing cached shadermap for Material_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 1B27E7CA0D3E56B9FFEF586EADB530CB5E5CCBC2), compiling. 
+[2022.09.14-15.12.26:036][487]LogFbx: Display: Triangulating static mesh Cube.001
+[2022.09.14-15.12.26:038][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Cube_001...
+[2022.09.14-15.12.26:043][487]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001
+[2022.09.14-15.12.26:068][487]LogFbx: Display: Triangulating static mesh Cylinder.011
+[2022.09.14-15.12.26:090][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Cylinder_011...
+[2022.09.14-15.12.26:107][487]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_011.fontaine_bonne_taille_Cylinder_011
+[2022.09.14-15.12.26:138][487]LogFbx: Display: Triangulating static mesh Cylinder.010
+[2022.09.14-15.12.26:141][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Cylinder_010...
+[2022.09.14-15.12.26:149][487]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_010.fontaine_bonne_taille_Cylinder_010
+[2022.09.14-15.12.26:172][487]LogFbx: Display: Triangulating static mesh Cylinder.009
+[2022.09.14-15.12.26:175][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Cylinder_009...
+[2022.09.14-15.12.26:185][487]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_009.fontaine_bonne_taille_Cylinder_009
+[2022.09.14-15.12.26:208][487]LogFbx: Display: Triangulating static mesh Cylinder.008
+[2022.09.14-15.12.26:210][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Cylinder_008...
+[2022.09.14-15.12.26:217][487]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_008.fontaine_bonne_taille_Cylinder_008
+[2022.09.14-15.12.26:239][487]LogFbx: Display: Triangulating static mesh Cylinder.007
+[2022.09.14-15.12.26:241][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Cylinder_007...
+[2022.09.14-15.12.26:249][487]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_007.fontaine_bonne_taille_Cylinder_007
+[2022.09.14-15.12.26:271][487]LogFbx: Display: Triangulating static mesh Cylinder.006
+[2022.09.14-15.12.26:274][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Cylinder_006...
+[2022.09.14-15.12.26:281][487]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_006.fontaine_bonne_taille_Cylinder_006
+[2022.09.14-15.12.26:304][487]LogFbx: Display: Triangulating static mesh Sphere.003
+[2022.09.14-15.12.26:309][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Sphere_003...
+[2022.09.14-15.12.26:316][487]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Visuels/fontaine_bonne_taille_Sphere_003.fontaine_bonne_taille_Sphere_003
+[2022.09.14-15.12.26:343][487]LogFbx: Display: Triangulating static mesh Sphere.002
+[2022.09.14-15.12.26:356][487]LogStaticMesh: Display: Building static mesh fontaine_bonne_taille_Sphere_002...
+[2022.09.14-15.12.26:371][487]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Visuels/fontaine_bonne_taille_Sphere_002.fontaine_bonne_taille_Sphere_002
+[2022.09.14-15.12.26:415][487]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Visuels/fontaine_bonne_taille_Cube_001) ...
+[2022.09.14-15.12.27:524][487]LogMeshUtilities: Finished distance field build in 1.3s - 77x63x105 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 40% occupied, 316 triangles, fontaine_bonne_taille_Sphere_001
+[2022.09.14-15.12.27:629][487]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Visuels/fontaine_bonne_taille_Sphere_003) ...
+[2022.09.14-15.12.27:649][487]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Visuels/fontaine_bonne_taille_Sphere_002) ...
+[2022.09.14-15.12.27:652][487]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'uv_fontaine_texture' was renamed 'uv_fontaine_texture_ncl1_1' 
+[2022.09.14-15.12.27:652][487]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'uv_fontaine_texture' was renamed 'uv_fontaine_texture_ncl1_2' 
+[2022.09.14-15.12.27:652][487]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.14-15.12.27:803][487]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Visuels/fontaine_bonne_taille_Sphere_001) ...
+[2022.09.14-15.12.29:643][500]LogMeshUtilities: Finished distance field build in 1.7s - 77x63x105 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 40% occupied, 316 triangles, fontaine_bonne_taille_Sphere_001
+[2022.09.14-15.12.31:042][536]LogShaderCompilers: Display: ================================================
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Total job queries 210, among them cache hits 110 (52.38%)
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Tracking 77 distinct input hashes that result in 27 distinct outputs (35.06%)
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Shaders Compiled: 48
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Jobs assigned 80, completed 77 (96.25%)
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Average time worker was idle: 127.95 s
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Time job spent in pending queue: average 1.63 s, longest 14.94 s
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Job execution time: average 2.29 s, max 13.75 s
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Job life time (pending + execution): average 3.98 s, max 16.26
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 50.86 s
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Jobs were issued in 80 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.14-15.12.31:043][536]LogShaderCompilers: Display: Average processing rate: 1.51 jobs/sec
+[2022.09.14-15.12.31:044][536]LogShaderCompilers: Display: Effective parallelization: 1.98 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.14-15.12.31:044][536]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.14-15.12.31:044][536]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 1.91 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-15.12.31:044][536]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 1.83 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-15.12.31:044][536]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 1.70 sec, max 2.00 sec, min 1.48 sec)
+[2022.09.14-15.12.31:044][536]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 1.25 sec, max 1.30 sec, min 1.21 sec)
+[2022.09.14-15.12.31:044][536]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    4 times, average 1.24 sec, max 1.30 sec, min 1.20 sec)
+[2022.09.14-15.12.31:045][536]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.14-15.12.31:045][536]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.13% of total time (compiled    8 times, average 1.91 sec, max 2.26 sec, min 1.30 sec)
+[2022.09.14-15.12.31:045][536]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.52% of total time (compiled    8 times, average 1.83 sec, max 2.08 sec, min 1.08 sec)
+[2022.09.14-15.12.31:045][536]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.12% of total time (compiled    6 times, average 1.70 sec, max 2.00 sec, min 1.48 sec)
+[2022.09.14-15.12.31:045][536]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.46% of total time (compiled    7 times, average 0.79 sec, max 0.97 sec, min 0.68 sec)
+[2022.09.14-15.12.31:045][536]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.98% of total time (compiled    4 times, average 1.25 sec, max 1.30 sec, min 1.21 sec)
+[2022.09.14-15.12.31:045][536]LogShaderCompilers: Display: ================================================
+[2022.09.14-15.12.34:692][628]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-15.12.34:735][628]LogSlate: Window 'Message Log' being destroyed
+[2022.09.14-15.12.43:126][855]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_011.fontaine_bonne_taille_Cylinder_011
+[2022.09.14-15.12.43:126][855]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_011.fontaine_bonne_taille_Cylinder_011
+[2022.09.14-15.12.43:126][855]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_011.fontaine_bonne_taille_Cylinder_011 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_48
+[2022.09.14-15.12.43:127][855]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001
+[2022.09.14-15.12.43:127][855]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001
+[2022.09.14-15.12.43:127][855]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_52
+[2022.09.14-15.12.43:636][865]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_011.fontaine_bonne_taille_Cylinder_011
+[2022.09.14-15.12.43:636][865]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_011.fontaine_bonne_taille_Cylinder_011
+[2022.09.14-15.12.43:637][865]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cylinder_011.fontaine_bonne_taille_Cylinder_011 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_2058431779
+[2022.09.14-15.12.43:654][865]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001
+[2022.09.14-15.12.43:654][865]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001
+[2022.09.14-15.12.43:655][865]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_2058449780
+[2022.09.14-15.12.52:253][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.09.14-15.12.55:249][ 85]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.14-15.12.55:357][ 85]LogUObjectGlobals: Force Deleting 19 Package(s):
+	Asset Name: /Game/Assets/Visuels/fontaine.fontaine
+	Asset Type: StaticMesh
+	Asset Name: /Game/Assets/Visuels/Material.Material
+	Asset Type: Material
+	Asset Name: /Game/Assets/Visuels/Material_001.Material_001
+	Asset Type: Material
+	Asset Name: /Game/Assets/Visuels/Material_002.Material_002
+	Asset Type: Material
+	Asset Name: /Game/Assets/Visuels/poupee_allongee_2_textures.poupee_allongee_2_textures
+	Asset Type: StaticMesh
+	Asset Name: /Game/Assets/Visuels/uv_fontaine_texture.uv_fontaine_texture
+	Asset Type: Texture2D
+	Asset Name: /Game/Assets/Visuels/uv_fontaine_texture_ncl1_1.uv_fontaine_texture_ncl1_1
+	Asset Type: Texture2D
+	Asset Name: /Game/Assets/Visuels/UVs_poupee_homme2.UVs_poupee_homme2
+	Asset Type: Texture2D
+	Asset Name: /Game/Assets/Visuels/Material_003.Material_003
+	Asset Type: Material
+	Asset Name: /Game/Assets/Visuels/fontaine_bonne_taille_Cube_001.fontaine_bonne_taille_Cube_001
+	Asset Type: StaticMesh
+[2022.09.14-15.12.55:688][ 85]LogMaterial: Display: Missing cached shadermap for Material_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 06C083D5B28C66DC5154D3150A48D76BC609F591), compiling. 
+[2022.09.14-15.12.55:689][ 85]LogMaterial: Warning: [AssetLog] C:\Users\theda\Documents\Unreal Projects\CampanGit\CampanProto\Content\Assets\Visuels\Material_002.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.09.14-15.12.55:707][ 85]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: AE3E734B257E5328B584F1FCD40AFEDCCA253D5C), compiling. 
+[2022.09.14-15.12.55:707][ 85]LogMaterial: Warning: [AssetLog] C:\Users\theda\Documents\Unreal Projects\CampanGit\CampanProto\Content\Assets\Visuels\Material_001.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.09.14-15.12.55:718][ 85]LogMaterial: Display: Missing cached shadermap for Material in PCD3D_SM5, Default, SM5 (DDC key hash: 56740BE3E1AD9CC9CFAAFAE43057408A88D466AC), compiling. 
+[2022.09.14-15.12.55:718][ 85]LogMaterial: Warning: [AssetLog] C:\Users\theda\Documents\Unreal Projects\CampanGit\CampanProto\Content\Assets\Visuels\Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.09.14-15.12.56:595][ 85]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_1162501778 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/NZ/987OQ7VOCDS2QCZ21NM2RH.PackageMetaData in its package
+[2022.09.14-15.12.56:600][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.09.14-15.12.56:655][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.09.14-15.12.56:712][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.09.14-15.12.56:996][ 85]LogLinker: Warning: Failed to load '/Game/Assets/Visuels/fontaine_bonne_taille_Sphere_001': Can't find file.
+[2022.09.14-15.12.56:997][ 85]LogLinker: Warning: Failed to load '/Game/Assets/Visuels/fontaine_bonne_taille_Sphere_001': Can't find file.
+[2022.09.14-15.12.56:997][ 85]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Visuels/fontaine_bonne_taille_Sphere_001.fontaine_bonne_taille_Sphere_001'
+[2022.09.14-15.12.57:125][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.09.14-15.12.58:871][128]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ
+[2022.09.14-15.12.58:872][128]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/ZSHXU3CG2LSL8Q7OO5M5FQ113E65FC4AF15DB1F966F4861B9359B8.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ZR/ZSHXU3CG2LSL8Q7OO5M5FQ.uasset'
+[2022.09.14-15.12.58:875][128]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/7L/ZGG39JSPER0FSPMOB9PPXK
+[2022.09.14-15.12.58:875][128]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/ZGG39JSPER0FSPMOB9PPXKD81D24484678E4D73B3909A077F2AE6B.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/7L/ZGG39JSPER0FSPMOB9PPXK.uasset'
+[2022.09.14-15.12.58:878][128]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/FM/QROZV955EESE68JWA4QGNM
+[2022.09.14-15.12.58:878][128]LogSavePackage: Moving '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Saved/QROZV955EESE68JWA4QGNM3EDBB15F4F4D1BF4F217DFA80CE6352D.tmp' to '../../../../../../Users/theda/Documents/Unreal Projects/CampanGit/CampanProto/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/FM/QROZV955EESE68JWA4QGNM.uasset'
+[2022.09.14-15.12.58:900][128]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.14-15.12.58:900][128]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_2058449780
+[2022.09.14-15.12.58:900][128]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F753601_2058431779
+[2022.09.14-15.12.58:900][128]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04D3B0B5265F743601_1170096601
+[2022.09.14-15.13.00:703][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.09.14-15.13.01:259][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.09.14-15.13.01:454][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.09.14-15.13.01:685][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
